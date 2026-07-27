@@ -158,21 +158,6 @@ const linkMonitor = (s: MonitorScreen) => {
                   alt="MLM 88x31 button"
                   class="transition-transform duration-200 hover:scale-110"
                 />
-                </a>
-              </div>
-              <p class="mb-2 text-lg leading-8 text-white/82">
-                if you want to add mine, see below!
-              </p>
-              <a href="/button.png" target="_blank">
-                <img
-                  src="/button.png"
-                  srcset="/button.png 1x, /button@2x.png 2x"
-                  width="88"
-                  height="31"
-                  alt="3kh0.net 88x31 button"
-                  class="transition-transform duration-200 hover:scale-110"
-                />
-              </a>
             </Disclosure>
           </div>
         </div>
