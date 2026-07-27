@@ -36,11 +36,10 @@ const linkMonitor = (s: MonitorScreen) => {
     <div class="mx-auto flex min-h-[calc(100vh-6rem)] max-w-6xl items-center">
       <div class="grid w-full gap-10 lg:grid-cols-[minmax(0,40rem)_minmax(18rem,25rem)] lg:gap-14">
         <div class="flex flex-col justify-center">
-          <h1 class="text-3xl text-white sm:text-4xl">hi, i'm echo (aka rowan)</h1>
+          <h1 class="text-3xl text-white sm:text-4xl">hi, i'm number7 (aka Thomas Andri H.)</h1>
 
           <p class="mt-8 max-w-lg text-lg leading-8 text-white/82">
-            i am a teenager doing security/infrastructure work for many organizations. i work mostly
-            rails, nuxt, and javascript. when i am off the clock i listen to music, study
+            In my role as a Cyber Security Intelligence professional, I am responsible for designing and developing cutting-edge security tools that are unprecedented globally. My primary focus is to strengthen and advance cybersecurity technology within the Republic of Indonesia, enhancing the resilience of our national technology systems. By prioritizing sophisticated and innovative solutions, I work to establish a robust security foundation capable of withstanding evolving cyber threats. This role involves direct service to the nation, where I am entrusted with critical assignments that emphasize safeguarding Indonesia's digital infrastructure and sensitive information. My work extends into research and development efforts aimed at boosting our country's cyber defense capabilities, creating a secure technological ecosystem that can withstand emerging risks. This commitment not only aims to protect digital assets but also to uphold the sovereignty and resilience of Indonesia's digital landscape. Through this position, I am privileged to contribute to Indonesia's vision of a secure digital future and play a vital role in the collective effort to enhance our country's technological and information security at both national and global levels.
             <a
               href="https://www.nasdaq.com/market-activity/etf/qqq"
               class="text-blue-400 underline"
