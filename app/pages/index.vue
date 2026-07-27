@@ -36,7 +36,7 @@ const linkMonitor = (s: MonitorScreen) => {
     <div class="mx-auto flex min-h-[calc(100vh-6rem)] max-w-6xl items-center">
       <div class="grid w-full gap-10 lg:grid-cols-[minmax(0,40rem)_minmax(18rem,25rem)] lg:gap-14">
         <div class="flex flex-col justify-center">
-          <h3 class="text-3xl text-white sm:text-4xl">hi, i'm number7 (aka Thomas Andri Hutomo)</h3>
+          <h4 class="text-3xl text-white sm:text-4xl">hi, i'm number7 (aka Thomas Andri Hutomo)</h4>
 
           <p class="mt-8 max-w-lg text-lg leading-8 text-white/82">
             As a Cyber Security Intelligence Professional, I design and develop innovative security tools to strengthen the resilience of Indonesia's national technology systems. This role involves research and development of cyber defense solutions to protect the country's digital infrastructure and sensitive information, supporting Indonesia's vision of a secure and sovereign digital ecosystem.
