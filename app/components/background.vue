@@ -3,52 +3,26 @@
     aria-hidden="true"
     data-allow-mismatch="children"
     class="pointer-events-none fixed inset-0 -z-10 overflow-hidden"
-    style="
-      background:
-        radial-gradient(circle at 50% 15%, rgba(255, 255, 255, 0.04), transparent 32%),
-        radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0.025), transparent 40%), #080808;
-    "
   >
-    <svg
-      data-allow-mismatch="children"
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      shape-rendering="geometricPrecision"
-      class="absolute inset-[-4%] h-[108%] w-[108%] origin-center rotate-[-7deg] scale-[1.08] opacity-[0.96]"
-    >
-      <polygon
-        v-for="cell in cells"
-        :key="cell.id"
-        class="fracture-cell"
-        :points="cell.points"
-        :style="{
-          fill: cell.fill,
-          stroke: cell.stroke,
-          strokeWidth,
-          vectorEffect: 'non-scaling-stroke',
-          strokeLinejoin: 'round',
-          strokeLinecap: 'round',
-        }"
-      />
-    </svg>
+    <div
+      class="absolute inset-0"
+      style="
+        background-image: url('https://randallpacker.com/wp-content/uploads/2018/12/self-surveillance.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform: scale(1.02);
+        filter: brightness(0.72) saturate(0.85);
+      "
+    ></div>
 
     <div
-      class="absolute inset-[-4%] h-[108%] w-[108%]"
+      class="absolute inset-0"
       style="
         background:
-          radial-gradient(
-            circle at center,
-            transparent 34%,
-            rgba(0, 0, 0, 0.14) 70%,
-            rgba(0, 0, 0, 0.42) 100%
-          ),
-          linear-gradient(
-            180deg,
-            rgba(0, 0, 0, 0.2),
-            transparent 22%,
-            transparent 78%,
-            rgba(0, 0, 0, 0.18)
-          );
+          radial-gradient(circle at 50% 15%, rgba(255, 255, 255, 0.08), transparent 32%),
+          radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0.05), transparent 40%),
+          linear-gradient(180deg, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.4));
       "
     ></div>
   </div>
