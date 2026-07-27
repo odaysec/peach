@@ -8,73 +8,73 @@ const emit = defineEmits(["close"]);
 
 const projects = [
   {
-    name: "Stance",
+    name: "WinDriverVortex",
     description:
-      "Elegant Polymarket trading terminal for power users and paper trading, with better navigation, more detailed charts, and dedicated support for popular smarts in sports, crypto, and tons more. Built to be ultra performant.",
+      "A comprehensive tool for analyzing windows driver vulnerabilities using IDA Pro plugins, C# GUI, and Python analysis Core Engine™",
     tech: ["simple-icons:polygon", "simple-icons:nuxt", "simple-icons:d3"],
-    demo: "https://stance.lol",
-    repo: "https://github.com/3kh0/stance",
-    image: "/projects/stance.png",
+    demo: "https://github.com/odaysec/WinDriverVortex",
+    repo: "https://github.com/odaysec/WinDriverVortex",
+    image: "/projects/wrx-logo.png",
   },
   {
-    name: "Slick",
+    name: "PwnTraverse",
     description:
-      "Opinionated Slack client mod for MacOS, using the official Slack web app wrapped in a Electron shell with a collection of plugins. Still in early development, but already used daily by a few people in the Hack Club community.",
+      "PwnTraverse, An advanced path traversal & endpoint vulnerability scanner for security researchers, bug bounty hunters, and penetration testers. Detects path traversal flaws, performs deep directory enumeration, and identifies CVE-related issues automatically.",
     tech: ["simple-icons:electron", "simple-icons:javascript", "simple-icons:slack"],
-    demo: "https://github.com/3kh0/slick/releases/latest",
-    repo: "https://github.com/3kh0/slick",
+    demo: "https://github.com/odaysec/PwnTraverse",
+    repo: "https://github.com/odaysec/PwnTraverse",
     image: "/projects/slick.png",
   },
   {
-    name: "Slack Datamine",
+    name: "SaaS ZeroTraffic",
     description:
-      "Datamining Slack changes from the webpack manifest, revealing new features and design changes often before they're announced.",
+      "SaaS Zero Network Traffic Monitor Professional network traffic monitoring and security analysis platform",
     tech: ["simple-icons:javascript", "simple-icons:slack"],
-    repo: "https://github.com/3kh0/slack-datamine",
+    repo: "https://github.com/odaysec/SaaS-ZeroTraffic",
     image: "/projects/slack-datamine.png",
   },
   {
-    name: "XNOR",
+    name: "NetWatch",
     description:
-      'A little fun music visualizer thingy for the song "XNOR XNOR XNOR" by Frums powered by Three.js.',
+      'Network Command Center Real-time network monitoring and security analysis and provides real-time network analysis, security monitoring, and infrastructure management capabilities.',
     tech: ["simple-icons:threedotjs", "simple-icons:html5", "simple-icons:javascript"],
-    demo: "https://xnor.3kh0.net",
-    repo: "https://github.com/3kh0/xnor",
+    demo: "https://github.com/odaysec/NetWatch",
+    repo: "https://github.com/odaysec/NetWatch",
     image: "/projects/xnor.png",
   },
   {
-    name: "hackclub.com",
+    name: "hub.opzero.id",
     description:
-      "The fourth iteration of the Hack Club site completely rebuilt for the next generation of Hack Club. Seen by hundreds of thousands of people every month.",
+      "Search, scrape, and analyze any website. used Firecrawl. ® Extract structured content, discover sitemaps, and research the web with a professional-grade toolkit built on the Firecrawl API.",
     tech: ["simple-icons:nextdotjs", "simple-icons:tailwindcss", "simple-icons:typescript"],
-    demo: "https://hackclub.com",
-    repo: "https://github.com/hackclub/site",
+    demo: "https://hub.opzero.id",
+    repo: "https://github.com/odaysec/ResearchHub",
     image: "/projects/site.png",
   },
   {
-    name: "Flavortown",
+    name: "kybercryptor",
     description:
-      "Build projects, earn cookies, get prizes. A Hack Club program built for over 12,000 teenagers.",
+      "A simple and secure implementation of Kyber512 post-quantum encryption and decryption in Python. Designed for developers exploring quantum-safe cryptography.",
     tech: ["simple-icons:rubyonrails", "simple-icons:html5"],
-    demo: "https://flavortown.hackclub.com",
-    repo: "https://github.com/hackclub/flavortown",
+    demo: "https://github.com/odaysec/kybercryptor",
+    repo: "https://github.com/odaysec/kybercryptor",
     image: "/projects/flavortown.png",
   },
   {
-    name: "Prometheus",
+    name: "recli",
     description:
-      "Prometheus is a Slack bot that lets community members take responsibility for keeping high traffic channels tidy and welcoming",
+      "RECLI (Reverse Engineering Command Line Interface) is a professional-grade toolkit designed to streamline binary analysis and reverse engineering workflows. it provides security researchers and malware analysts with a powerful suite of command-line tools",
     tech: ["simple-icons:javascript", "simple-icons:slack"],
-    repo: "https://github.com/3kh0/prometheus",
+    repo: "https://github.com/odaysec/recli",
     image: "/projects/prometheus.png",
   },
   {
-    name: "Hack Club Traffic",
+    name: "ZEROINTL Research",
     description:
       "A simple dashboard for visualizing 300 million monthly requests to hackclub.com with the power of Cloudflare GraphQL and TradingView charts",
     tech: ["simple-icons:nuxt", "simple-icons:cloudflare", "simple-icons:graphql"],
-    demo: "https://traffic.3kh0.net/",
-    repo: "https://github.com/3kh0/hackclub-traffic",
+    demo: "https://archive.opzero.id/",
+    repo: "https://archive.opzero.id/",
     image: "/projects/hackclub-traffic.png",
   },
   {
@@ -403,7 +403,7 @@ onBeforeUnmount(() => {
                 >
                   a collection of my personal and professional projects. more is on my
                   <a
-                    href="https://github.com/3kh0"
+                    href="https://github.com/odaysec/"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="text-blue-400 underline underline-offset-[0.2rem] hover:text-blue-200 focus-visible:text-blue-200 focus-visible:outline-none"
