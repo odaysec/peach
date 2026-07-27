@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: "3kh0.net",
+      title: "number7",
       meta: [
         {
           "http-equiv": "onion-location",
