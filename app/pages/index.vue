@@ -83,6 +83,18 @@ const linkMonitor = (s: MonitorScreen) => {
                   >Pusat Teknologi Informasi Sekretariat Jenderal DPR RI</a
                 >,
                 <a
+                  href="https://hackerone.com/leaderboard/country?year=2020&owasp=a1&country=ID&assetType=WEB_APP&tab=all&userTypeTab=individual"
+                  class="text-blue-400 underline"
+                  v-on="linkMonitor('H101')"
+                  >H101-2019  U.S Department of Defense</a
+                >,
+                <a
+                  href="https://pejaten.bin.go.id/owa/"
+                  class="text-blue-400 underline"
+                  v-on="linkMonitor('BP2020070100')"
+                  >WS-Federation BAIS DVS020</a
+                >,
+                <a
                   href="https://github.com/advisories?query=credit%3Aodaysec"
                   class="text-blue-400 underline"
                   v-on="linkMonitor('GitHub')"
