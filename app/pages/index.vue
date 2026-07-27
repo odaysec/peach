@@ -109,23 +109,23 @@ const linkMonitor = (s: MonitorScreen) => {
               <p class="text-lg leading-8 text-white/82">
                 you can reach me via
                 <a
-                  href="mailto:hello@3kh0.net"
+                  href="mailto:hello@masthomatoes.id"
                   class="text-blue-400 underline"
                   v-on="linkMonitor('email')"
                   >email</a
                 >,
                 <a
-                  href="https://signal.me/#eu/EnC26yk3rkDfP2JPoguBZYjCVhMD6_xAGxu1L4UzhdK0bnQgDHdIQLCQjR6eBdZF"
+                  href="https://signal.me/#eu/"
                   class="text-blue-400 underline"
                   v-on="linkMonitor('signal')"
                   >signal</a
                 >
                 or
                 <a
-                  href="https://t.me/doober"
+                  href="https://instagram.com/@youryreborn/"
                   class="text-blue-400 underline"
-                  v-on="linkMonitor('telegram')"
-                  >telegram</a
+                  v-on="linkMonitor('instagram')"
+                  >Instagram</a
                 >.
               </p>
             </Disclosure>
@@ -133,7 +133,7 @@ const linkMonitor = (s: MonitorScreen) => {
             <Disclosure label="links">
               <p class="mb-2 text-lg leading-8 text-white/82">
                 you can find me on other platforms as well:
-                <a href="https://github.com/3kh0" class="text-blue-400 underline" target="_blank"
+                <a href="https://github.com/odaysec" class="text-blue-400 underline" target="_blank"
                   >github</a
                 >,
                 <a
@@ -143,7 +143,7 @@ const linkMonitor = (s: MonitorScreen) => {
                   >reddit</a
                 >, and
                 <a
-                  href="https://www.youtube.com/@3kh0"
+                  href="https://www.youtube.com/@codeandpwn/videos"
                   class="text-blue-400 underline"
                   target="_blank"
                   >youtube</a
