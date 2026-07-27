@@ -137,7 +137,7 @@ const linkMonitor = (s: MonitorScreen) => {
                   >github</a
                 >,
                 <a
-                  href="https://old.reddit.com/u/3kh0_reddit/"
+                  href="https://old.reddit.com/u//"
                   class="text-blue-400 underline"
                   target="_blank"
                   >reddit</a
@@ -158,98 +158,6 @@ const linkMonitor = (s: MonitorScreen) => {
                   alt="MLM 88x31 button"
                   class="transition-transform duration-200 hover:scale-110"
                 />
-                <a href="https://developer.valvesoftware.com/wiki/Source" target="_blank">
-                  <img
-                    src="/88x31/source.png"
-                    srcset="/88x31/source.png 1x, /88x31/source@2x.png 2x"
-                    width="88"
-                    height="31"
-                    alt="Source Engine 88x31 button"
-                    class="transition-transform duration-200 hover:scale-110"
-                  />
-                </a>
-                <a href="https://github.com/gorhill/uBlock" target="_blank">
-                  <img
-                    src="/88x31/ublock.png"
-                    srcset="/88x31/ublock.png 1x, /88x31/ublock@2x.png 2x"
-                    width="88"
-                    height="31"
-                    alt="uBlock Origin 88x31 button"
-                    class="transition-transform duration-200 hover:scale-110"
-                  />
-                </a>
-                <a href="https://www.getmonero.org/" target="_blank">
-                  <img
-                    src="/88x31/xmr.png"
-                    srcset="/88x31/xmr.png 1x, /88x31/xmr@2x.png 2x"
-                    width="88"
-                    height="31"
-                    alt="Monero 88x31 button"
-                    class="transition-transform duration-200 hover:scale-110"
-                  />
-                </a>
-              </div>
-              <p class="mb-2 text-lg leading-8 text-white/82">and of course, a few friends:</p>
-              <div class="mb-2 flex flex-wrap gap-2">
-                <a href="https://sundial.city/" target="_blank">
-                  <img
-                    src="/88x31/sundial.gif"
-                    srcset="/88x31/sundial.gif 1x, /88x31/sundial@2x.gif 2x"
-                    width="88"
-                    height="31"
-                    alt="sundial.city 88x31 button"
-                    class="transition-transform duration-200 hover:scale-110"
-                  />
-                </a>
-                <a href="https://aconlin.com/" target="_blank">
-                  <img
-                    src="/88x31/acon.gif"
-                    srcset="/88x31/acon.gif 1x, /88x31/acon@2x.gif 2x"
-                    width="88"
-                    height="31"
-                    alt="aconlin.com 88x31 button"
-                    class="transition-transform duration-200 hover:scale-110"
-                  />
-                </a>
-                <a href="https://bomberfish.ca/" target="_blank">
-                  <img
-                    src="/88x31/bomberfish.png"
-                    srcset="/88x31/bomberfish.png 1x, /88x31/bomberfish@2x.png 2x"
-                    width="88"
-                    height="31"
-                    alt="bomberfish.ca 88x31 button"
-                    class="transition-transform duration-200 hover:scale-110"
-                  />
-                </a>
-                <a href="https://glutesha.me/" target="_blank">
-                  <img
-                    src="/88x31/glutesha.png"
-                    srcset="/88x31/glutesha.png 1x, /88x31/glutesha@2x.png 2x"
-                    width="88"
-                    height="31"
-                    alt="glutesha.me 88x31 button"
-                    class="transition-transform duration-200 hover:scale-110"
-                  />
-                </a>
-                <a href="https://prpl.wtf/" target="_blank">
-                  <img
-                    src="/88x31/prpl.gif"
-                    srcset="/88x31/prpl.gif 1x, /88x31/prpl@2x.gif 2x"
-                    width="88"
-                    height="31"
-                    alt="prpl.wtf 88x31 button"
-                    class="transition-transform duration-200 hover:scale-110"
-                  />
-                </a>
-                <a href="https://foxmoss.com/" target="_blank">
-                  <img
-                    src="/88x31/foxmoss.png"
-                    srcset="/88x31/foxmoss.png 1x, /88x31/foxmoss@2x.png 2x"
-                    width="88"
-                    height="31"
-                    alt="foxmoss.com 88x31 button"
-                    class="transition-transform duration-200 hover:scale-110"
-                  />
                 </a>
               </div>
               <p class="mb-2 text-lg leading-8 text-white/82">
